@@ -1,0 +1,31 @@
+{
+    "name": "darkstar/payload",
+    "description": "Domain Payload Object for DarkStar",
+    "keywords": [
+        "php",
+        "payload",
+        "domain",
+        "adr",
+        "darkstar",
+        "elevenone"
+    ],
+    "license": "MIT",
+    "homepage": "https://elevenone.space",
+    "authors": [
+        {
+            "name": "Zsolt Sándor",
+            "email": "hello@elevenone.space"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DarkStar\\Payload\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
